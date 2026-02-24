@@ -1,0 +1,5 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+cd "../../../dist"
+java -jar "Hotel_Managament_System.jar" &
+
